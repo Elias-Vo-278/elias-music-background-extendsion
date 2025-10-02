@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Mood Music Player",
+  "version": "1.0",
+  "description": "Background music based on your current mood or topic.",
+  "permissions": [
+    "storage",          
+    "offscreen"        
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ],
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": "icons/sound.png" 
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}

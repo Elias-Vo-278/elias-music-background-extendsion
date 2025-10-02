@@ -1,0 +1,34 @@
+[
+  {
+    "id": 101,
+    "title": "Starlight Drift",
+    "artist": "Cosmic Voyager",
+    "topics": ["Space", "Ambient", "Focus"],
+    "music_url": "https://example.com/audio/starlight_drift.mp3",
+    "image_query": "deep space nebula wallpaper"
+  },
+  {
+    "id": 102,
+    "title": "Rainy Day Code Flow",
+    "artist": "Lo-Fi Beats Collective",
+    "topics": ["Lofi", "Chill", "Coding"],
+    "music_url": "https://example.com/audio/rainy_code.mp3",
+    "image_query": "aesthetic rainy window desk"
+  },
+  {
+    "id": 103,
+    "title": "Ancient Scrolls",
+    "artist": "Fantasy RPG Music",
+    "topics": ["Fantasy", "Epic", "Adventure"],
+    "music_url": "https://example.com/audio/ancient_scrolls.mp3",
+    "image_query": "worn out leather books magic"
+  },
+  {
+    "id": 104,
+    "title": "City Sunset Drive",
+    "artist": "Synthwave Hero",
+    "topics": ["Synthwave", "Retro", "Drive"],
+    "music_url": "https://example.com/audio/sunset_drive.mp3",
+    "image_query": "80s neon cityscape street"
+  }
+]

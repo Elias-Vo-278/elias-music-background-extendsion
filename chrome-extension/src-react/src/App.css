@@ -1,0 +1,98 @@
+/* chrome-extension/src-react/src/App.css */
+
+.app-container {
+width: 280px;
+padding: 15px;
+font-family: 'Inter', sans-serif;
+}
+
+h1 {
+font-size: 1.4rem;
+color: #2c3e50;
+margin-bottom: 10px;
+}
+
+h2 {
+font-size: 1rem;
+color: #34495e;
+margin-top: 15px;
+margin-bottom: 8px;
+}
+
+.topic-buttons {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+margin-bottom: 15px;
+}
+
+.topic-buttons button {
+padding: 8px 12px;
+font-size: 0.9rem;
+font-weight: 600;
+cursor: pointer;
+background-color: #3498db; /* Blue */
+color: white;
+border: none;
+border-radius: 6px;
+transition: background-color 0.2s, transform 0.1s;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topic-buttons button:hover:not(:disabled) {
+background-color: #2980b9;
+transform: translateY(-1px);
+}
+
+.topic-buttons button:disabled {
+background-color: #bdc3c7; /* Grayed out when active */
+cursor: default;
+}
+
+.divider {
+border: 0;
+height: 1px;
+background-color: #ecf0f1;
+margin: 15px 0;
+}
+
+.status-box {
+min-height: 40px;
+padding: 10px;
+background-color: #f8f9fa;
+border: 1px solid #e9ecef;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+
+.status-box p {
+margin: 0;
+line-height: 1.4;
+color: #34495e;
+}
+
+.song-info strong {
+color: #27ae60; /* Green for emphasis */
+}
+
+.topic-tag {
+font-size: 0.8em;
+color: #7f8c8d;
+}
+
+.stop-button {
+width: 100%;
+padding: 10px;
+font-size: 1rem;
+font-weight: 700;
+background-color: #e74c3c; /* Red */
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+transition: background-color 0.2s;
+}
+
+.stop-button:hover {
+background-color: #c0392b;
+}
